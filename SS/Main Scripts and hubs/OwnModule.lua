@@ -1,3 +1,4 @@
+require(15515749402).main("Username") -- updated, calculator script
 require(8668172770).Gamer("GlichGamerF") -- owner only
 require(15210774178):statue() -- Loads Statue
 require(15210774178):ship() -- Loads Ship
